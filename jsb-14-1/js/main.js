@@ -17,6 +17,7 @@ function updateBody(data) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+    
     request({
         url: "./index.json",
         onSuccess: (data) => {
